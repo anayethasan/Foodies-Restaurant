@@ -164,7 +164,7 @@ p {
 .white-btn:hover {
     background-color: transparent;
     color: var(--primary-color);
-    border: var(--primary-color);
+    border-color: var(--primary-color);
 }
 
 .wrapper {
@@ -240,7 +240,12 @@ Headder Design
 top bannar desing 
 ===================
 */
-
+.top-banner{
+    width: 100%;
+    background: url(images/bg/bg-1.jpg) no-repeat center;
+    background-size: cover;
+    padding: 16.875rem 0 9.375rem;
+}
 
 /* 
 ===================
