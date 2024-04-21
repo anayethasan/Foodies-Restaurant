@@ -252,3 +252,17 @@ top bannar desing
 counter desing
 ===================
 */
+.counter-section{
+    background: var(--primary-color);
+    padding: 2.5rem 0;
+}
+.counter-section p{
+    color: var(--wihte-color);
+    text-transform: uppercase;
+}
+
+/* 
+===================
+About Section desing
+===================
+*/
