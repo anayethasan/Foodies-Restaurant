@@ -224,17 +224,15 @@ Headder Design
 
 
 /* Change navber style on scroll */
-
-.navigation-wrap .scroll-on{
+.navigation-wrap .scroll-on {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background: var(--wihte-color);
-    box-shadow: 0 0.125rem 1.75rem 0 rgb(0, 0, 0, 0.9);
-    transition: all .15s ease-in-out 0s;
+    background: var(--white-color);
+    box-shadow: 0 0.125rem 1.75rem 0 rgba(0, 0, 0, 0.09);
+    transition: all 0.15s ease-in-out 0s;
 }
-
 /* 
 ===================
 top bannar desing 
