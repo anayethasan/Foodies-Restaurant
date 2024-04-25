@@ -3,6 +3,7 @@
 let nav = document.querySelector(".navigation-wrap");
 
 window.onscroll = function () {
+    console.log(document.documentElement.scrollTop);
     if (document.documentElement.scrollTop > 20) {
         nav.classList.add("scroll-on");
     } else {

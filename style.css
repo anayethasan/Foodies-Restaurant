@@ -224,13 +224,13 @@ Headder Design
 
 
 /* Change navber style on scroll */
-.navigation-wrap .scroll-on {
+.navigation-wrap.scroll-on {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background: var(--white-color);
-    box-shadow: 0 0.125rem 1.75rem 0 rgba(0, 0, 0, 0.09);
+    background: white;
+    box-shadow: 0 0.125rem 1.75rem 0 rgba(0, 0, 0, 0.10);
     transition: all 0.15s ease-in-out 0s;
 }
 /* 
@@ -263,4 +263,21 @@ counter desing
 ===================
 About Section desing
 ===================
+*/
+.about-section{
+    margin-top: 5rem;
+    background-color: var(--wihte-color);
+}
+.about-section .card,
+.about-section .card img{
+    border-radius: 0.625rem;
+}
+.about-section .text-sec{
+    padding: 2rem;
+}
+
+/* 
+=========================
+Food type Section desing
+=========================
 */
