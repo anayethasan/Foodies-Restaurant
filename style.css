@@ -323,3 +323,19 @@ Food type Section desing
 Explore Food Section desing
 ============================
 */
+.explore-food .card{
+    border: none;
+    background-color: transparent;
+    border-radius: 0.9375rem;
+}
+.explore-food .card img{
+    
+}
+
+
+
+/* 
+============================
+Testimonail Section desing
+============================
+*/
