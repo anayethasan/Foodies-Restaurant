@@ -66,8 +66,19 @@
     }
 
     /* newsletter section */
+    .newslettar{
+        width: 75%;
+    }
+    .newslettar .main-btn{
+        width: 100%;
+        margin-top: 1rem;
+    }
 
     /* footer link */
+    .footer .footer-link,
+    .footer a i{
+        padding: 0 0.75rem;
+    }
 }
 
 @media (max-width: 330px) {

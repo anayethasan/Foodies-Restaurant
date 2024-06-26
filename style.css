@@ -419,14 +419,54 @@ Testimonail Section desing
     background-position: 0 71.9125px;
     padding: 4.375rem 0;
 }
+
+/* Form Control */
+#newslettar{
+    margin-top: 5rem;
+}
+.newslettar{
+    width: 55%;
+    margin: 0 auto;
+}
+.newslettar .form-control{
+    height: 3.255rem;
+    padding: 0 1.25rem;
+    font-size: 0.875rem;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    border: 0.1875rem solid var(--text-gray);
+    color: var(--secondery-color);
+    font-weight: 600;
+}
+.newslettar .form-control:hover,
+.newslettar .form-control:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: var(--primary-color);
+}
+
 /* 
 ============================
 Footer Section desing
 ============================
 */
+.footer{
+    background-color: var(--primary-color);
+    margin-top: 5rem;
+}
 
-/* 
-============================
-Testimonail Section desing
-============================
-*/
+.footer .footer-link{
+    font-size: 1rem;
+    padding: 0 1.875rem;
+    color: var(--wihte-color);
+}
+.footer .footer-link:hover{
+    color: var(--wihte-color) !important;
+}
+.footer a i{
+    font-size: 1.5rem;
+    color: var(--wihte-color);
+    padding: 0 1rem;
+}
